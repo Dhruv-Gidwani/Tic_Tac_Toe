@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F4C2C2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/tictactoe"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:onClick="buClick"
+            android:text="" />
+    </TableRow>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_game"
+            android:backgroundTint="#C40233"
+            android:layout_marginTop="20dp"/>
+
+
+</TableLayout>
